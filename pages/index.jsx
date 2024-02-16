@@ -25,7 +25,7 @@ export default function HomePage() {
                     <span key="Add" className="Add">
                       Add
                     </span>
-                    <span key="Github" className="Github">
+                    <span key="Project" className="Github">
                       Github
                     </span>
                     <span key="Tags" className="Tags">

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Pythonic-Finance",
+    "image": "",
+    "description": "Financial Analysis in Python: Custom OOP Regression Models for CAPM/Fama-French Analysis, Time-Series Analysis, and Textbook Notes on Financial Engineering",
+    "tags": [
+      "Python",
+      "Jupyter-Notebooks",
+      "Pandas",
+      "API",
+      "Data-Analysis",
+      "Data-Visualization",
+      "Statistics"
+    ],
+    "source_code": "https://github.com/dBCooper2/pythonic-finance",
+    "demo": ""
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Viewing Scripts",
+    "image": "",
+    "description": "Displaying a User's Portfolio Performance in the CLI, using Python to clean account JSONs from the tda-api wrapper",
+    "tags": ["Python", "Shell", "API", "Data-Cleaning"],
+    "source_code": "https://github.com/dBCooper2/portfolio-viewing-script",
+    "demo": ""
+  },
+  {
+    "id": 2,
+    "name": "dBI",
+    "image": "",
+    "description": "DEPRECATED - OOP Business Intelligence Tools in Python (CAPM Regression, Candle Charts, API Calls to TD Ameritrade API)",
+    "tags": [
+      "Python",
+      "Jupyter-Notebooks",
+      "SQL",
+      "API",
+      "Data-Analysis",
+      "Data-Visualization"
+    ],
+    "source_code": "https://github.com/dBCooper2/dBI",
+    "demo": ""
+  }
+]
