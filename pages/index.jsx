@@ -8,13 +8,15 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>who was</h1>
-          <h1>dBCooper?</h1>
+          <h1>Business</h1>
+          <h1>Intelligence?</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Trevor Rowland</h1>
-            <h6 className={styles.bio}>Business Analytics</h6>
+            <h6 className={styles.bio}>
+              Business Intelligence, Data Analytics
+            </h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
