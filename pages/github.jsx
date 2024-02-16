@@ -1,21 +1,26 @@
-import Image from 'next/image';
-import GitHubCalendar from 'react-github-calendar';
-import RepoCard from '../components/RepoCard';
-import styles from '../styles/GithubPage.module.css';
+import Image from "next/image";
+import GitHubCalendar from "react-github-calendar";
+import RepoCard from "../components/RepoCard";
+import styles from "../styles/GithubPage.module.css";
 
 const GithubPage = ({ repos, user }) => {
   // console.log(repos);
   const theme = {
-    level0: '#161B22',
-    level1: '#0e4429',
-    level2: '#006d32',
-    level3: '#26a641',
-    level4: '#39d353',
+    level0: "#161B22",
+    level1: "#0e4429",
+    level2: "#006d32",
+    level3: "#26a641",
+    level4: "#39d353",
   };
 
   return (
     <>
-      <a href="https://github.com/drkostas" target="_blank" rel="noopener" className={styles.no_color}>
+      <a
+        href="https://github.com/dBCooper"
+        target="_blank"
+        rel="noopener"
+        className={styles.no_color}
+      >
         <div className={styles.user}>
           <div>
             <Image
@@ -35,13 +40,22 @@ const GithubPage = ({ repos, user }) => {
           </div>
         </div>
       </a>
-      <div> <center><h3>My Most Popular Repositories on Github</h3></center></div>
+      <div>
+        {" "}
+        <center>
+          <h3>My Most Popular Repositories on Github</h3>
+        </center>
+      </div>
       <div className={styles.container}>
         {repos.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
         ))}
       </div>
-      <div><center><h3>My Github Calendar</h3></center></div>
+      <div>
+        <center>
+          <h3>My Github Calendar</h3>
+        </center>
+      </div>
       <br />
       <center>
         <div className={styles.contributions}>
@@ -49,7 +63,7 @@ const GithubPage = ({ repos, user }) => {
             username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
             theme={theme}
             hideColorLegend
-          // hideMonthLabels
+            // hideMonthLabels
           />
         </div>
       </center>
@@ -64,7 +78,7 @@ export async function getStaticProps() {
       headers: {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,
       },
-    }
+    },
   );
   const user = await userRes.json();
 
@@ -74,24 +88,29 @@ export async function getStaticProps() {
       headers: {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,
       },
-    }
+    },
   );
   let repos = await repoRes.json();
   repos = repos
     .sort((a, b) => {
-      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC')) {
-        return b
+      if (a.html_url.includes("EESTech") || a.html_url.includes("COSC")) {
+        return b;
       }
-      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC')) {
-        return a
+      if (b.html_url.includes("EESTech") || b.html_url.includes("COSC")) {
+        return a;
       }
 
-      return (b.stargazers_count + b.watchers_count + b.forks_count) - (a.stargazers_count + a.watchers_count + a.forks_count)
+      return (
+        b.stargazers_count +
+        b.watchers_count +
+        b.forks_count -
+        (a.stargazers_count + a.watchers_count + a.forks_count)
+      );
     })
     .slice(0, 8);
 
   return {
-    props: { title: 'GitHub', repos, user },
+    props: { title: "GitHub", repos, user },
     revalidate: 10,
   };
 }
