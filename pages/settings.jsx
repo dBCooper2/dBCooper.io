@@ -7,6 +7,13 @@ const SettingsPage = () => {
       <h2>Manage Themes</h2>
       <div className={styles.container}>
         <ThemeInfo
+          name="Solar-Ish Light"
+          icon="/db_2023db.jpg"
+          publisher="trevor.rowland"
+          theme="solarish-light"
+          description="A VS Code theme by me for this website."
+        />
+        <ThemeInfo
           name="Dracula"
           icon="/dracula.png"
           publisher="Dracula Theme"
@@ -47,13 +54,6 @@ const SettingsPage = () => {
           publisher="sarah.drasner"
           theme="night-owl"
           description="A VS Code theme for the night owls out there."
-        />
-        <ThemeInfo
-          name="Solar-Ish Light"
-          icon="/night-owl.png"
-          publisher="trevor.rowland"
-          theme="solarish-light"
-          description="A VS Code theme by me for this website."
         />
       </div>
     </>

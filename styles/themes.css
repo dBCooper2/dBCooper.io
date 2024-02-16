@@ -1,5 +1,32 @@
-/* Dracula */
+/*Solarish Light - A Custom Solarized Light Theme by dBCooper2*/
 :root {
+    --main-bg: #fdf6e3;
+    --bg-text: #e3ddcc;
+    --text-color: #2142ab;
+    --accent-color: #0d1a44;
+    --titlebar-bg: #142867;
+    --sidebar-bg: #d8d3c5;
+    --sidebar-hover-bg: #bfbbb2;
+    --explorer-bg: #e4decf;
+    --explorer-hover-bg: #bfbbb2;
+    --explorer-border: transparent;
+    --tabs-bg: #fefaee;
+    --tab-bg: #bfbbb2;
+    --transparent-bg: rgba(1, 17, 29, 0.2);
+    --tab-active-bg: #fdf6e3;
+    --tab-border: #65625b;
+    --bottombar-bg: #7f7b72;
+    --bottombar-border: #65625b;
+    --button-bg: rgb(95, 126, 151);
+    --button-text: #fff;
+    --bottombar-hover-bg: #bfbbb2;
+    --scrollbar-track-bg: #65625b;
+    --scrollbar-thumb-bg: #65625b;
+    --article-bg: #d8d3c5;
+}
+
+/* Dracula */
+[data-theme="dracula"] {
     --main-bg: #282a36;
     --bg-text: #313340;
     --text-color: #efefef;
@@ -158,31 +185,4 @@
     --scrollbar-track-bg: #011627;
     --scrollbar-thumb-bg: #043254;
     --article-bg: #031d33;
-}
-
-/*Solarish Light - A Custom Solarized Light Theme by dBCooper2*/
-[data-theme="solarish-light"] {
-    --main-bg: #fdf6e3;
-    --bg-text: #e3ddcc;
-    --text-color: #2142ab;
-    --accent-color: #0d1a44;
-    --titlebar-bg: #142867;
-    --sidebar-bg: #d8d3c5;
-    --sidebar-hover-bg: #bfbbb2;
-    --explorer-bg: #e4decf;
-    --explorer-hover-bg: #bfbbb2;
-    --explorer-border: transparent;
-    --tabs-bg: #fefaee;
-    --tab-bg: #bfbbb2;
-    --transparent-bg: rgba(1, 17, 29, 0.2);
-    --tab-active-bg: #fdf6e3;
-    --tab-border: #65625b;
-    --bottombar-bg: #7f7b72;
-    --bottombar-border: #65625b;
-    --button-bg: rgb(95, 126, 151);
-    --button-text: #fff;
-    --bottombar-hover-bg: #bfbbb2;
-    --scrollbar-track-bg: #65625b;
-    --scrollbar-thumb-bg: #65625b;
-    --article-bg: #d8d3c5;
 }

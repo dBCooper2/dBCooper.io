@@ -18,8 +18,8 @@ const contactItems = [
   },
   {
     social: "Website",
-    link: "None Yet",
-    href: "",
+    link: "db-cooper-io.vercel.app",
+    href: "https://db-cooper-io.vercel.app/",
   },
 ];
 
@@ -30,7 +30,7 @@ const ContactCode = () => {
         tag: <a>production</a>
       </p>
       <p className={styles.line}>
-        <span>kostas</span>&#58;
+        <span>trevor</span>&#58;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;
