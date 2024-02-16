@@ -1,18 +1,17 @@
-import ErrorIcon from './icons/ErrorIcon';
-import WarningIcon from './icons/WarningIcon';
-import BellIcon from './icons/BellIcon';
-import GithubIcon from './icons/GithubIcon';
-import LinkedinIcon from './icons/LinkedinIcon';
-import ScholarIcon from './icons/ScholarIcon';
-import SourceControlIcon from './icons/SourceControlIcon';
-import styles from '../styles/Bottombar.module.css';
+import ErrorIcon from "./icons/ErrorIcon";
+import WarningIcon from "./icons/WarningIcon";
+import BellIcon from "./icons/BellIcon";
+import GithubIcon from "./icons/GithubIcon";
+import LinkedinIcon from "./icons/LinkedinIcon";
+import SourceControlIcon from "./icons/SourceControlIcon";
+import styles from "../styles/Bottombar.module.css";
 
 const Bottombar = () => {
   return (
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/drkostas/drkostas.github.io"
+          href="https://github.com/dBCooper2/dBCooper.io"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -28,22 +27,20 @@ const Bottombar = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <a href="https://www.linkedin.com/in/gkos/" target="_blank" rel="noopener">
+        <a
+          href="https://www.linkedin.com/in/trevor-rowland711/"
+          target="_blank"
+          rel="noopener"
+        >
           <div className={styles.section}>
             <LinkedinIcon className={styles.icon} />
             <p>Linkedin</p>
           </div>
         </a>
-        <a href="https://github.com/drkostas" target="_blank" rel="noopener">
+        <a href="https://github.com/dBCooper2" target="_blank" rel="noopener">
           <div className={styles.section}>
             <GithubIcon className={styles.icon} />
             <p>Github</p>
-          </div>
-        </a>
-        <a href="https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra" target="_blank" rel="noopener">
-          <div className={styles.section}>
-            <ScholarIcon className={styles.icon} />
-            <p>Scholar</p>
           </div>
         </a>
         {/* <div className={styles.section}>

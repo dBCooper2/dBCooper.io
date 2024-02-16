@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import styles from '../styles/Titlebar.module.css';
+import Image from "next/image";
+import styles from "../styles/Titlebar.module.css";
 
 const Titlebar = () => {
   return (
@@ -20,7 +20,7 @@ const Titlebar = () => {
         <p>Terminal</p>
         <p>Help</p>
       </div>
-      <p className={styles.title}>Kostas Georgiou - Portfolio</p>
+      <p className={styles.title}>Trevor Rowland - Portfolio</p>
       <div className={styles.windowButtons}>
         <span className={styles.minimize}></span>
         <span className={styles.maximize}></span>

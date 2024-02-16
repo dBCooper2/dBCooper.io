@@ -1,5 +1,5 @@
-import ThemeInfo from '../components/ThemeInfo';
-import styles from '../styles/SettingsPage.module.css';
+import ThemeInfo from "../components/ThemeInfo";
+import styles from "../styles/SettingsPage.module.css";
 
 const SettingsPage = () => {
   return (
@@ -48,6 +48,13 @@ const SettingsPage = () => {
           theme="night-owl"
           description="A VS Code theme for the night owls out there."
         />
+        <ThemeInfo
+          name="Solar-Ish Light"
+          icon="/night-owl.png"
+          publisher="trevor.rowland"
+          theme="solarish-light"
+          description="A VS Code theme by me for this website."
+        />
       </div>
     </>
   );
@@ -55,7 +62,7 @@ const SettingsPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Settings' },
+    props: { title: "Settings" },
   };
 }
 
