@@ -9,9 +9,16 @@ const SettingsPage = () => {
         <ThemeInfo
           name="Solar-Ish Light"
           icon="/db_2023db.jpg"
-          publisher="trevor.rowland"
+          publisher="dBCooper2"
           theme="solarish-light"
           description="A VS Code theme by me for this website."
+        />
+        <ThemeInfo
+          name="Solar-Ish Dark"
+          icon="/db_2023db.jpg"
+          publisher="dBCooper2"
+          theme="solar-ish-dark"
+          description="A Dark Theme of Solar-ish Light made by me for this website"
         />
         <ThemeInfo
           name="Dracula"

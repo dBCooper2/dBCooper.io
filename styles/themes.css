@@ -2,21 +2,52 @@
 :root {
     --main-bg: #fdf6e3;
     --bg-text: #e3ddcc;
+    --name-text: #2142ab;
     --text-color: #2142ab;
-    --accent-color: #0d1a44;
-    --titlebar-bg: #142867;
+    --accent-color: #2142ab;
+    --titlebar-bg: #2142ab;
     --sidebar-bg: #d8d3c5;
     --sidebar-hover-bg: #bfbbb2;
     --explorer-bg: #e4decf;
     --explorer-hover-bg: #bfbbb2;
+    --explorer-text: #2142ab;
     --explorer-border: transparent;
-    --tabs-bg: #fefaee;
+    --tabs-bg: #b2afa8;
     --tab-bg: #bfbbb2;
     --transparent-bg: rgba(1, 17, 29, 0.2);
     --tab-active-bg: #fdf6e3;
-    --tab-border: #65625b;
-    --bottombar-bg: #7f7b72;
-    --bottombar-border: #65625b;
+    --tab-border: #7f7b72;
+    --bottombar-bg: #b2afa8;
+    --bottombar-border: #7f7b72;
+    --button-bg: rgb(95, 126, 151);
+    --button-text: #fff;
+    --bottombar-hover-bg: #bfbbb2;
+    --scrollbar-track-bg: #65625b;
+    --scrollbar-thumb-bg: #65625b;
+    --article-bg: #d8d3c5;
+}
+
+/*Solar-Ish Dark*/
+[data-theme="solar-ish-dark"] {
+    --main-bg: #fdf6e3;
+    --bg-text: #e3ddcc;
+    --name-text: #2142ab;
+    --text-color: #2142ab;
+    --accent-color: #2142ab;
+    --titlebar-bg: #2142ab;
+    --sidebar-bg: #d8d3c5;
+    --sidebar-hover-bg: #bfbbb2;
+    --explorer-bg: #e4decf;
+    --explorer-hover-bg: #bfbbb2;
+    --explorer-text: #2142ab;
+    --explorer-border: transparent;
+    --tabs-bg: #b2afa8;
+    --tab-bg: #bfbbb2;
+    --transparent-bg: rgba(1, 17, 29, 0.2);
+    --tab-active-bg: #fdf6e3;
+    --tab-border: #7f7b72;
+    --bottombar-bg: #b2afa8;
+    --bottombar-border: #7f7b72;
     --button-bg: rgb(95, 126, 151);
     --button-text: #fff;
     --bottombar-hover-bg: #bfbbb2;
