@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Pythonic-Finance",
-    "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/ayu.png?raw=true",
+    "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/project_imgs/data_viz.png?raw=true",
     "description": "Financial Analysis in Python: Custom OOP Regression Models for CAPM/Fama-French Analysis, Time-Series Analysis, and Textbook Notes on Financial Engineering",
     "tags": [
       "Python",
@@ -21,7 +21,7 @@
   {
     "id": 2,
     "name": "Portfolio Viewing Scripts",
-    "image": "https://imgur.com/oqmQixs",
+    "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/project_imgs/candles.jpg?raw=true",
     "description": "Displaying a User's Portfolio Performance in the CLI, using Python to clean account JSONs from the tda-api wrapper",
     "tags": ["Python", "Shell", "APIs", "Data-Analysis"],
     "source_code": "https://github.com/dBCooper2/portfolio-viewing-script",
@@ -30,7 +30,7 @@
   {
     "id": 2,
     "name": "dBI",
-    "image": "https://imgur.com/XsUARWW",
+    "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/project_imgs/regression.png?raw=true",
     "description": "DEPRECATED - OOP Business Intelligence Tools in Python (CAPM Regression, Candle Charts, API Calls to TD Ameritrade API)",
     "tags": [
       "Python",

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "ACME Inc. SQL Database",
-    "image": "https://imgur.com/EBufhln",
+    "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/project_imgs/databases.jpg?raw=true",
     "description": "Designing a MySQL Database in Oracle MySQL from a list of Business Rules. Final Project for Database Management - DS 3860",
     "tags": ["SQL", "Oracle-MySQL"],
     "source_code": "https://github.com/dBCooper2/ACME_INC_SQL",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "UCEMC Request for Proposals",
+    "name": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/project_imgs/ucemc.jpg?raw=true",
     "image": "https://imgur.com/maLDiNi",
     "description": "Writing Sample, RFP for Helpdesk Solution for Upper Cumberland Electric Members Corporation. Final Project for Management Information Systems - DS 3841",
     "tags": ["Technical-Writing"],
