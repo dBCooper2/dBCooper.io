@@ -9,7 +9,7 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.background}>
           <h1>who was</h1>
-          <h1>dBCooper2</h1>
+          <h1>dBCooper?</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
@@ -22,32 +22,38 @@ export default function HomePage() {
                 <div className={styles.content}>
                   <h4>Skill Set</h4>
                   <div className={styles.tags}>
-                    <span key="Add" className="Add">
-                      Add
+                    <span key="Python" className="Python">
+                      Python
                     </span>
-                    <span key="Project" className="Github">
-                      Github
+                    <span key="Jupyter-Notebooks" className="Jupyter-Notebooks">
+                      Jupyter-Notebooks
                     </span>
-                    <span key="Tags" className="Tags">
-                      Tags
+                    <span
+                      key="Data-Visualization"
+                      className="Data-Visualization"
+                    >
+                      Data-Visualization
                     </span>
-                    <span key="To" className="To">
-                      To
+                    <span key="APIs" className="APIs">
+                      APIs
                     </span>
-                    <span key="This" className="This">
-                      This
+                    <span key="SQL" className="SQL">
+                      SQL
                     </span>
-                    <span key="In-Index.jsx" className="In-Index.jsx">
-                      In-Index.jsx
+                    <span key="Pandas" className="Pandas">
+                      Pandas
                     </span>
-                    <span key="Data-Cleaning" className="Data-Cleaning">
-                      Data-Cleaning
+                    <span key="Linear-Regression" className="Linear-Regression">
+                      Linear-Regression
                     </span>
                     <span key="Software-Design" className="Software-Design">
                       Software-Design
                     </span>
-                    <span key="APIs" className="APIs">
-                      APIs
+                    <span key="Excel" className="Excel">
+                      Excel
+                    </span>
+                    <span key="CAPM" className="CAPM">
+                      CAPM
                     </span>
                   </div>
                 </div>

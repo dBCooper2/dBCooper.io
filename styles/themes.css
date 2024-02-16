@@ -164,25 +164,25 @@
 [data-theme="solarish-light"] {
     --main-bg: #fdf6e3;
     --bg-text: #e3ddcc;
-    --text-color: #000000;
-    --accent-color: rgb(00, 000, 000);
+    --text-color: #2142ab;
+    --accent-color: #0d1a44;
     --titlebar-bg: #142867;
     --sidebar-bg: #d8d3c5;
-    --sidebar-hover-bg: #000000;
+    --sidebar-hover-bg: #bfbbb2;
     --explorer-bg: #e4decf;
-    --explorer-hover-bg: #2142ab;
+    --explorer-hover-bg: #bfbbb2;
     --explorer-border: transparent;
     --tabs-bg: #fefaee;
-    --tab-bg: #7f7b72;
+    --tab-bg: #bfbbb2;
     --transparent-bg: rgba(1, 17, 29, 0.2);
-    --tab-active-bg: #bfbbb2;
-    --tab-border: rgb(39, 43, 59);
-    --bottombar-bg: #fefaee;
-    --bottombar-border: #000000;
+    --tab-active-bg: #fdf6e3;
+    --tab-border: #65625b;
+    --bottombar-bg: #7f7b72;
+    --bottombar-border: #65625b;
     --button-bg: rgb(95, 126, 151);
     --button-text: #fff;
-    --bottombar-hover-bg: #2142ab;
-    --scrollbar-track-bg: #000000;
-    --scrollbar-thumb-bg: #000000;
-    --article-bg: #4d68bc;
+    --bottombar-hover-bg: #bfbbb2;
+    --scrollbar-track-bg: #65625b;
+    --scrollbar-thumb-bg: #65625b;
+    --article-bg: #d8d3c5;
 }

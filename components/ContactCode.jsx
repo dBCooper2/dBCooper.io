@@ -1,34 +1,34 @@
-import styles from '../styles/ContactCode.module.css';
+import styles from "../styles/ContactCode.module.css";
 
 const contactItems = [
   {
-    social: 'Email',
-    link: 't.rowland711@gmail.com',
-    href: 'mailto:t.rowland711@gmail.com',
+    social: "Email",
+    link: "t.rowland711@gmail.com",
+    href: "mailto:t.rowland711@gmail.com",
   },
   {
-    social: 'LinkedIn',
-    link: 'linkedin.com/in/trevor-rowland711',
-    href: 'https://www.linkedin.com/in/trevor-rowland711',
+    social: "LinkedIn",
+    link: "linkedin.com/in/trevor-rowland711",
+    href: "https://www.linkedin.com/in/trevor-rowland711",
   },
   {
-    social: 'GitHub',
-    link: 'github.com/dBCooper2',
-    href: 'https://github.com/dBCooper2',
+    social: "GitHub",
+    link: "github.com/dBCooper2",
+    href: "https://github.com/dBCooper2",
   },
   {
-    social: 'Website',
-    link: 'gkos.dev',
-    href: 'https://gkos.dev',
+    social: "Website",
+    link: "None Yet",
+    href: "",
   },
 ];
 
 const ContactCode = () => {
   return (
     <div className={styles.code}>
-       <p className={styles.line}>
-       tag: <a>production</a>
-        </p>
+      <p className={styles.line}>
+        tag: <a>production</a>
+      </p>
       <p className={styles.line}>
         <span>kostas</span>&#58;
       </p>
@@ -37,7 +37,7 @@ const ContactCode = () => {
       </p>
       {contactItems.slice(0, 8).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.social}:{" "}
           <a href={item.href} target="_blank" rel="noopener">
             {item.link}
           </a>
@@ -45,7 +45,7 @@ const ContactCode = () => {
       ))}
       {contactItems.slice(8, contactItems.length).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.social}:{" "}
           <a href={item.href} target="_blank" rel="noopener">
             {item.link}
           </a>
