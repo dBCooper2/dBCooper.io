@@ -14,9 +14,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Trevor Rowland</h1>
-            <h6 className={styles.bio}>
-              Business Analytics, Data Science, Financial Analysis
-            </h6>
+            <h6 className={styles.bio}>Business Analytics</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -66,7 +64,7 @@ export default function HomePage() {
               <button className={styles.button}>View Projects</button>
             </Link> */}
             <Link href="/contact">
-              <button className={styles.outlined}>Contact</button>
+              <button className={styles.button}>Contact</button>
             </Link>
           </div>
           {/* <Illustration className={styles.illustration} /> */}
