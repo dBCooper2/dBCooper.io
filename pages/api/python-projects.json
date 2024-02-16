@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Pythonic-Finance",
-    "image": "./public/ayu.png",
+    "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/ayu.png?raw=true",
     "description": "Financial Analysis in Python: Custom OOP Regression Models for CAPM/Fama-French Analysis, Time-Series Analysis, and Textbook Notes on Financial Engineering",
     "tags": [
       "Python",
