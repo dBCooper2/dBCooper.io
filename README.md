@@ -2,7 +2,19 @@
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
-![vscode-portfolio banner](https://imgur.com/YTNNknY.png)
+<img src="public/github_imgs/homepage.png" alt="portfolio-banner" style="width: 85%;"/>
+
+Huge shoutouts to the [original project](https://github.com/drkostas/drkostas.github.io) by [drkostas](https://github.com/drkostas)! This is an amazing portfolio project and I am very thankful for his creation of the original project.
+
+### Changelog:
+
++ added 2 new themes, Solar-ish Light and Solar-ish Dark. These are themes similar to the Solarized Light and a Dark version of the theme to fit the vibes I am going for with my portfolio.
++ added some custom tags in Index.jsx to better describe my skills
++ added an Articles section to the "Explorer" Tab, with functionality to post some kind of article/jupyter notebook coming soon
++ removed extraneous stuff from drkostas's original project to keep the size of this smaller and learn what can/can't be removed from the project. This is still a work in progress and I plan to only have my own work on top of the original skeleton at some point to truly transform the project instead of just ripping it off and slapping my name on there
+
+
+## Original README
 
 ## Environment Variables
 
