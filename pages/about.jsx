@@ -1,23 +1,22 @@
 import { pdfjs, Document, Page } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-const myResume = './Resume.pdf';
+const myResume = './trevor-rowland-resume.pdf';
 
 const AboutPage = () => {
   return (
     <>
       <h3>About Me</h3><br/>
       <ul>
-        <li><span role="img" aria-label="book">📖</span> Pursuing PhD in Data Science & Engineering @ <a href='https://bredesencenter.utk.edu/the-data-science-and-engineering-phd/'>The University of Tennessee</a>.</li>
-        <li><span role="img" aria-label="graduate-hat">🎓</span> Conducting research on <b>AI</b> and <b>Computer Vision</b> @ <a href='https://aicip.github.io/research.htm'>AICIP Lab</a>.</li>
-        <li><span role="img" aria-label="laptop">💻</span> Currently building Masked Image Modeling models for Remote Sensing data. </li>
+        <li><span role="img" aria-label="book">📖</span> Pursuing a BS in Business Analytics @ <a href='https://www.tntech.edu/business/undergraduate/business-analytics/index.php'>Tennessee Tech University</a>.</li>
+        <li><span role="img" aria-label="graduate-hat">🎓</span> Seeking a Position in Business or Data Analytics</li>
+        <li><span role="img" aria-label="laptop">💻</span> Currently building custom Regression Models for Financial Analysis in the  <a href='https://github.com/dBCooper2/pythonic-finance'>Pythonic Finance</a> Repository</li>
       </ul>
       <br/>
       <center>
-        <h3>Resume (<a href={myResume} download="Resume-KonstantinosGeorgiou.pdf">Download</a>)</h3>
+        <h3>Resume (<a href={myResume} download="trevor-rowland-resume.pdf">Download</a>)</h3>
         <br />
         <Document file={myResume}>
           <Page pageIndex={0} renderMode="svg"/>
-          <Page pageIndex={1} renderMode="svg"/>
         </Document>
       </center>
     </>

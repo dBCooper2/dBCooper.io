@@ -3,28 +3,18 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    link: 't.rowland711@gmail.com',
+    href: 'mailto:t.rowland711@gmail.com',
   },
   {
     social: 'LinkedIn',
-    link: 'linkedin.com/in/gkos',
-    href: 'https://www.linkedin.com/in/gkos/',
+    link: 'linkedin.com/in/trevor-rowland711',
+    href: 'https://www.linkedin.com/in/trevor-rowland711',
   },
   {
     social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
-  },
-  {
-    social: 'Google Scholar',
-    link: 'scholar.google.com/<gkos>',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
-  },
-  {
-    social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    link: 'github.com/dBCooper2',
+    href: 'https://github.com/dBCooper2',
   },
   {
     social: 'Website',
