@@ -16,7 +16,7 @@ const GithubPage = ({ repos, user }) => {
   return (
     <>
       <a
-        href="https://github.com/dBCooper"
+        href="https://github.com/dBCooper2"
         target="_blank"
         rel="noopener"
         className={styles.no_color}

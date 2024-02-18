@@ -12,6 +12,7 @@
 .Python {
     border: 0.1rem solid #647bc4;
 }
+
 .Python:hover {
     background: #647bc4;
 }
@@ -19,6 +20,7 @@
 .Jupyter-Notebooks {
     border: 0.1rem solid #172e78;
 }
+
 .Jupyter-Notebooks:hover {
     background: #172e78;
 }
@@ -26,6 +28,7 @@
 .Technical-Writing {
     border: 0.1rem solid #d3d9ee;
 }
+
 .Technical-Writing:hover {
     background: #d3d9ee;
 }
@@ -33,6 +36,7 @@
 .CAPM {
     border: 0.1rem solid #415f42;
 }
+
 .CAPM:hover {
     background: #415f42;
 }
@@ -40,6 +44,7 @@
 .Fama-French {
     border: 0.1rem solid #0d1a44;
 }
+
 .Fama-French:hover {
     background: #0d1a44;
 }
@@ -47,6 +52,7 @@
 .Data-Analysis {
     border: 0.1rem solid #475b9a;
 }
+
 .Data-Analysis:hover {
     background: #475b9a;
 }
@@ -54,6 +60,7 @@
 .Data-Visualization {
     border: 0.1rem solid #d3d9ee;
 }
+
 .Data-Visualization:hover {
     background: #d3d9ee;
 }
@@ -61,6 +68,7 @@
 .APIs {
     border: 0.1rem solid #6d7489;
 }
+
 .APIs:hover {
     background: #6d7489;
 }
@@ -68,6 +76,7 @@
 .SQL {
     border: 0.1rem solid #4d68bc;
 }
+
 .SQL:hover {
     background: #4d68bc;
 }
@@ -75,6 +84,7 @@
 .Oracle-MySQL {
     border: 0.1rem solid #4d68bc;
 }
+
 .Oracle-MySQL:hover {
     background: #4d68bc;
 }
@@ -82,62 +92,88 @@
 .Excel {
     border: 0.1rem solid #81ab82;
 }
+
 .Excel:hover {
     background: #81ab82;
+}
+
+.Shell {
+    border: 0.1rem solid #d3d9ee;
+}
+
+.Shell:hover {
+    background: #d3d9ee;
 }
 
 /* Tags */
 .Pandas {
     border: 0.1rem solid rgb(0, 54, 216);
 }
+
 .Pandas:hover {
     background: rgba(0, 54, 216, 0.25);
 }
+
 .Numpy {
     border: 0.1rem solid rgb(251, 199, 66);
 }
+
 .Numpy:hover {
     background: rgba(251, 199, 66, 0.25);
 }
+
 .Linear-Regression {
     border: 0.1rem solid rgb(0, 0, 0);
 }
+
 .Linear-Regression:hover {
     background: rgba(0, 0, 0, 0.25);
 }
+
 .MySQL {
     border: 0.1rem solid rgb(144, 151, 252);
 }
+
 .MySQL:hover {
     background: rgba(144, 151, 252, 0.25);
 }
+
 .Univariate-Time-Series {
     border: 0.1rem solid rgb(0, 0, 0);
 }
+
 .Univariate-Time-Series:hover {
     background: rgba(0, 0, 0, 0.25);
 }
+
 .Scraper {
     border: 0.1rem solid rgb(0, 0, 0);
 }
+
 .Scraper:hover {
     background: rgba(0, 0, 0, 0.25);
 }
+
 .Software-Design {
     border: 0.1rem solid #3e559e;
 }
+
 .Software-Design:hover {
     background: #3e559e;
 }
+
 .wrapper {
     background: rgb(0, 0, 0);
 }
+
 .wrapper:hover {
     background: rgba(0, 0, 0, 0.25);
 }
+
 .Visualization {
     border: 0.1rem solid rgb(0, 0, 0);
 }
+
 .Visualization:hover {
     background: rgba(0, 0, 0, 0.25);
 }

@@ -32,7 +32,13 @@ const explorerItems = [
   },
 ];
 
-const articlesItems = [];
+const articlesItems = [
+  {
+    name: "articles_WIP.ipynb",
+    path: "/articles/articles",
+    icon: "jupyter.png",
+  },
+];
 
 const Explorer = () => {
   const [portfolioOpen, setPortfolioOpen] = useState(true);

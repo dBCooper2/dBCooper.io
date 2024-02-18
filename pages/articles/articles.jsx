@@ -1,0 +1,31 @@
+import React from "react";
+import notebookHTML from "/pages/api/articles/simple_linear_regression.html";
+
+const Articles_Page = () => {
+  return (
+    <div>
+      <header>
+        <h1>UNDER CONSTRUCTION: Articles</h1>
+      </header>
+      <main>
+        <p>
+          This is a test for embedding HTML converted from Jupyter
+          Notebooks/Markdown and matching the styles
+        </p>
+        <object
+          data={notebookHTML}
+          type="text/html"
+          style={{ width: "100%", height: "90vh" }}
+        ></object>
+        <style>{}</style>
+      </main>
+      <footer>
+        <p>
+          <a href="https://test-article">Link to Original Notebook File</a>
+        </p>
+      </footer>
+    </div>
+  );
+};
+
+export default Articles_Page;

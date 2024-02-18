@@ -18,8 +18,8 @@ const contactItems = [
   },
   {
     social: "Website",
-    link: "db-cooper-io.vercel.app",
-    href: "https://db-cooper-io.vercel.app/",
+    link: "trevor-rowland.vercel.app",
+    href: "https://trevor-rowland.vercel.app/",
   },
 ];
 
