@@ -21,7 +21,9 @@ const Articles_Page = () => {
       </main>
       <footer>
         <p>
-          <a href="https://test-article">Link to Original Notebook File</a>
+          <a href="https://github.com/dBCooper2/pythonic-finance/blob/main/notebooks/regression_models/simple_linear_regression.ipynb">
+            Link to Original Notebook File
+          </a>
         </p>
       </footer>
     </div>
