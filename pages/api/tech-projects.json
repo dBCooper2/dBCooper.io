@@ -6,7 +6,7 @@
     "description": "Designing a MySQL Database in Oracle MySQL from a list of Business Rules. Final Project for Database Management - DS 3860",
     "tags": ["SQL", "Oracle-MySQL"],
     "source_code": "https://github.com/dBCooper2/ACME_INC_SQL",
-    "demo": "https://github.com/dBCooper2/ACME_INC_SQL"
+    "demo": "https://github.com/dBCooper2/ACME_INC_SQL/blob/main/DS3860_final_proj.pdf"
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/project_imgs/rfp.jpg?raw=true",
     "description": "Writing Sample, RFP for Helpdesk Solution for Upper Cumberland Electric Members Corporation. Final Project for Management Information Systems - DS 3841",
     "tags": ["Technical-Writing"],
-    "source_code": "https://github.com/dBCooper2/UCEMC-RFP-and-SWOT-Analysis",
-    "demo": ""
+    "source_code": "",
+    "demo": "https://github.com/dBCooper2/UCEMC-RFP-and-SWOT-Analysis"
   }
 ]
