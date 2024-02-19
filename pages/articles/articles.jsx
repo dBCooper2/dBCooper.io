@@ -10,7 +10,8 @@ const Articles_Page = () => {
       <main>
         <p>
           This is a test for embedding HTML converted from Jupyter
-          Notebooks/Markdown and matching the styles
+          Notebooks/Markdown and matching the styles. See the Github Issues Page
+          in the db-cooper-io Repository for planned updates to this
         </p>
         <object
           data={notebookHTML}
