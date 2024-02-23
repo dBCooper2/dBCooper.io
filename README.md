@@ -2,7 +2,7 @@
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
-<img src="public/github_imgs/homepage.png" alt="portfolio-banner" style="width: 85%;"/>
+<img src="public/github_imgs/homepage-2-23-24.png" alt="portfolio-banner" style="width: 85%;"/>
 
 Huge shoutouts to the [original project](https://github.com/drkostas/drkostas.github.io) by [drkostas](https://github.com/drkostas)! This is an amazing portfolio project and I am very thankful for his creation of the original project.
 
