@@ -24,8 +24,8 @@
     "image": "https://github.com/dBCooper2/dBCooper.io/blob/main/public/project_imgs/candles.jpg?raw=true",
     "description": "Displaying a User's Portfolio Performance in the CLI, using Python to clean account JSONs from the tda-api wrapper",
     "tags": ["Python", "Shell", "APIs", "Data-Analysis"],
-    "source_code": "https://github.com/dBCooper2/portfolio-viewing-script",
-    "demo": ""
+    "source_code": "https://github.com/dBCooper2/portfolio_viewing_script",
+    "demo": "https://github.com/dBCooper2/portfolio_viewing_script/releases/tag/tdameritrade-api"
   },
   {
     "id": 2,

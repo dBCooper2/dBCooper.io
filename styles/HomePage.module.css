@@ -94,10 +94,11 @@
     font-size: 1.25rem;
     padding: 0.5rem 1rem;
     margin-right: 1.5rem;
-    color: #eee;
+    color: var(--button-link-color);
     font-weight: 600;
     border: none;
     cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 .outlined {
@@ -261,7 +262,7 @@
 .cardContainer {
     margin: 1.5rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 0.7fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 0.7fr));
     gap: 1.5rem;
     bottom: 0;
 }
@@ -310,6 +311,6 @@
     margin: 0.5rem 0.5rem 0 0;
     padding: 0.2rem 0.5rem;
     border-radius: 20px;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     transition: all 0.2s;
 }

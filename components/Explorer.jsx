@@ -8,27 +8,27 @@ const explorerItems = [
   {
     name: "home.md",
     path: "/",
-    icon: "markdown_icon.svg",
+    icon: "icons/markdown_icon.svg",
   },
   {
     name: "about.md",
     path: "/about",
-    icon: "markdown_icon.svg",
+    icon: "icons/markdown_icon.svg",
   },
   {
     name: "contact.md",
     path: "/contact",
-    icon: "markdown_icon.svg",
+    icon: "icons/markdown_icon.svg",
   },
   {
     name: "projects.py",
     path: "/projects",
-    icon: "py_icon.svg",
+    icon: "icons/py_icon.svg",
   },
   {
     name: "github.py",
     path: "/github",
-    icon: "py_icon.svg",
+    icon: "icons/py_icon.svg",
   },
 ];
 
@@ -36,7 +36,7 @@ const articlesItems = [
   {
     name: "articles_WIP.ipynb",
     path: "/articles/articles",
-    icon: "jupyter.png",
+    icon: "icons/jupyter.png",
   },
 ];
 

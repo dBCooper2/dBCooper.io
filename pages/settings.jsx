@@ -8,59 +8,17 @@ const SettingsPage = () => {
       <div className={styles.container}>
         <ThemeInfo
           name="Solar-Ish Light"
-          icon="/db_2023db.jpg"
+          icon="/themes/solarish_light.png"
           publisher="dBCooper2"
           theme="solarish-light"
           description="A VS Code theme by me for this website."
         />
         <ThemeInfo
           name="Solar-Ish Dark"
-          icon="/db_2023db.jpg"
+          icon="/themes/solarish_dark.png"
           publisher="dBCooper2"
           theme="solar-ish-dark"
           description="A Dark Theme of Solar-ish Light made by me for this website"
-        />
-        <ThemeInfo
-          name="Dracula"
-          icon="/dracula.png"
-          publisher="Dracula Theme"
-          theme="dracula"
-          description="Official Dracula Theme. A dark theme for many editors, shells, and more."
-        />
-        <ThemeInfo
-          name="GitHub Dark"
-          icon="/github-dark.png"
-          publisher="GitHub"
-          theme="github-dark"
-          description="GitHub theme for VS Code"
-        />
-        <ThemeInfo
-          name="Ayu Dark"
-          icon="/ayu.png"
-          publisher="teabyii"
-          theme="ayu-dark"
-          description="A simple theme with bright colors."
-        />
-        <ThemeInfo
-          name="Ayu Mirage"
-          icon="/ayu.png"
-          publisher="teabyii"
-          theme="ayu-mirage"
-          description="A simple theme with bright colors."
-        />
-        <ThemeInfo
-          name="Nord"
-          icon="/nord.png"
-          publisher="arcticicestudio"
-          theme="nord"
-          description="An arctic, north-bluish clean and elegant Visual Studio Code theme."
-        />
-        <ThemeInfo
-          name="Night Owl"
-          icon="/night-owl.png"
-          publisher="sarah.drasner"
-          theme="night-owl"
-          description="A VS Code theme for the night owls out there."
         />
       </div>
     </>

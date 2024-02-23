@@ -1,6 +1,7 @@
 .container {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin: 1rem 0;
+    display: grid;
+    align-items: self-start;
+    grid-template-columns: repeat(6, minmax(1px, 1fr));
+    margin: 1rem 0;
+    justify-content: flex-start; /* Align themes from left to right */
 }

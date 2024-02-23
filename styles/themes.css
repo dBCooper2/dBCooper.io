@@ -1,9 +1,12 @@
 /*Solarish Light - A Custom Solarized Light Theme by dBCooper2*/
 :root {
     --main-bg: #fdf6e3;
-    --bg-text: #e3ddcc;
+    --bg-text: #f3f0e4;
     --name-text: #2142ab;
     --text-color: #2142ab;
+    --link-color: #344ea2;
+    --link-color-visited: #516196;
+    --button-link-color: #fdf6e3;
     --accent-color: #2142ab;
     --titlebar-bg: #2142ab;
     --sidebar-bg: #d8d3c5;
@@ -30,9 +33,12 @@
 /*Solar-Ish Dark*/
 [data-theme="solar-ish-dark"] {
     --main-bg: #191917;
-    --bg-text: #33312d;
+    --bg-text: #22201f;
     --name-text: #fdf6e3;
     --text-color: #fdf6e3;
+    --link-color: #e9ecf7;
+    --link-color-visited: #bcc6e6;
+    --button-link-color: #fdf6e3;
     --accent-color: #2142ab;
     --titlebar-bg: #2142ab;
     --sidebar-bg: #070d22;
@@ -53,7 +59,7 @@
     --bottombar-hover-bg: #0a1433;
     --scrollbar-track-bg: #fdf6e3;
     --scrollbar-thumb-bg: #fdf6e3;
-    --article-bg: #070d22;
+    --article-bg: #33312d;
 }
 
 /* Dracula */

@@ -1,5 +1,6 @@
 import Link from "next/link";
 // import Illustration from '../components/Illustration';
+const myResume = "./documents/trevor-rowland-resume.pdf";
 import Image from "next/image";
 import styles from "../styles/HomePage.module.css";
 
@@ -25,8 +26,20 @@ export default function HomePage() {
                     <span key="Python" className="Python">
                       Python
                     </span>
+                    <span key="Pandas" className="Pandas">
+                      Pandas
+                    </span>
+                    <span key="SQL" className="SQL">
+                      SQL
+                    </span>
                     <span key="Jupyter-Notebooks" className="Jupyter-Notebooks">
                       Jupyter-Notebooks
+                    </span>
+                    <span key="Excel" className="Excel">
+                      Excel
+                    </span>
+                    <span key="Data-Analysis" className="Data-Analysis">
+                      Data-Analysis
                     </span>
                     <span
                       key="Data-Visualization"
@@ -37,44 +50,43 @@ export default function HomePage() {
                     <span key="APIs" className="APIs">
                       APIs
                     </span>
-                    <span key="SQL" className="SQL">
-                      SQL
-                    </span>
-                    <span key="Pandas" className="Pandas">
-                      Pandas
-                    </span>
                     <span key="Linear-Regression" className="Linear-Regression">
                       Linear-Regression
                     </span>
                     <span key="Software-Design" className="Software-Design">
                       Software-Design
                     </span>
-                    <span key="Excel" className="Excel">
-                      Excel
-                    </span>
                     <span key="CAPM" className="CAPM">
                       CAPM
+                    </span>
+                    <span key="Fama-French" className="Fama-French">
+                      Fama-French
                     </span>
                   </div>
                 </div>
               </div>
             </div>
-            <Link href="/about">
-              <button className={styles.button}>About Me</button>
-            </Link>
-            {/* <Link href="/projects">
-              <button className={styles.button}>View Projects</button>
-            </Link> */}
-            <Link href="/contact">
-              <button className={styles.button}>Contact</button>
-            </Link>
+            <div>
+              <Link href="/about">
+                <button className={styles.button}>About Me</button>
+              </Link>
+              <Link href="/contact">
+                <button className={styles.button}>Contact</button>
+              </Link>
+              <Link href={myResume} download="trevor-rowland-resume.pdf">
+                <button className={styles.button}>Resume</button>
+              </Link>
+              <Link href="/projects">
+                <button className={styles.button}>View Projects</button>
+              </Link>
+            </div>
           </div>
           {/* <Illustration className={styles.illustration} /> */}
           <div className={styles.right}>
             <div className={styles.picture_boader}>
               <Image
                 className={styles.picture}
-                src="/my-ai-headshot-flipped.png"
+                src="/headshots/my-ai-headshot-flipped.png"
                 width={325}
                 height={325}
                 alt="Trevor's Picture"

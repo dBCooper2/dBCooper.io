@@ -26,15 +26,6 @@ const contactItems = [
 const ContactCode = () => {
   return (
     <div className={styles.code}>
-      <p className={styles.line}>
-        tag: <a>production</a>
-      </p>
-      <p className={styles.line}>
-        <span>trevor</span>&#58;
-      </p>
-      <p className={styles.line}>
-        &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;
-      </p>
       {contactItems.slice(0, 8).map((item, index) => (
         <p className={styles.line} key={index}>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.social}:{" "}
