@@ -35,7 +35,7 @@ const explorerItems = [
 const articlesItems = [
   {
     name: "articles_WIP.ipynb",
-    path: "/articles/articles",
+    path: "/articles",
     icon: "icons/jupyter.png",
   },
 ];
