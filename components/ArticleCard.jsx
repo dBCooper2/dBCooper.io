@@ -1,39 +1,37 @@
-import Image from 'next/image';
-import EyeIcon from '../components/icons/EyeIcon';
-import HeartIcon from '../components/icons/HeartIcon';
-import CommentIcon from '../components/icons/CommentIcon';
-import styles from '../styles/ArticleCard.module.css';
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../styles/ArticleCard.module.css";
 
 const ArticleCard = ({ article }) => {
   return (
-    <a
-      href={article.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={styles.container}
-    >
-      <Image
-        src={article.cover_image}
-        alt={article.title}
-        width={300}
-        height={150}
-      />
-      <div className={styles.content}>
-        <h3 className={styles.title}>{article.title}</h3>
-        <p>{article.description}</p>
-      </div>
-      <div className={styles.stats}>
-        <div className={styles.stat}>
-          <EyeIcon className={styles.icon} /> {article.page_views_count}
+    <div>
+      <Link href={`posts/${article.slug}`}>
+        <div className={styles.card}>
+          <Image
+            src={article.image}
+            height={300}
+            width={600}
+            alt={article.title}
+            style={{ borderRadius: "10px" }}
+          />
+          <div className = {styles.content}>
+            <center>
+                <h3>{article.title}</h3>
+            </center>
+            <h4>{article.subtitle}</h4>
+            <h6>{article.date}</h6>
+            <p>{article.description}</p>
+            <div className={styles.tags}>
+              {article.tags.map((tag) => (
+                <span key={tag} className={tag}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
-        <div className={styles.stat}>
-          <HeartIcon className={styles.icon} /> {article.public_reactions_count}
-        </div>
-        <div className={styles.stat}>
-          <CommentIcon className={styles.icon} /> {article.comments_count}
-        </div>
-      </div>
-    </a>
+      </Link>
+    </div>
   );
 };
 

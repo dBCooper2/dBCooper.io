@@ -1,4 +1,21 @@
-module.exports = {
+const withMDX = require('@next/mdx')()
+
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+
+  // Configure `pageExtensions` to include MDX files
+  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        fs: false,
+      };
+    }
+
+    return config;
+  },
   images: {
     unoptimized: true,
     domains: [
@@ -7,17 +24,6 @@ module.exports = {
       "imgur.com",
     ],
   },
-  webpack: (config, { isServer }) => {
-    // Add file-loader for HTML files
-    config.module.rules.push({
-      test: /\.html$/,
-      loader: "file-loader",
-      options: {
-        name: "[name].[ext]",
-        outputPath: "static", // Adjust the output path as needed
-      },
-    });
-
-    return config;
-  },
 };
+
+module.exports = nextConfig;

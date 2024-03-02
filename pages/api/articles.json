@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "title": "Univariate and Multivariate Linear Regression",
+        "subtitle": "Building Regression Models from Scratch in Python",
+        "date": "3/1/24",
+        "description": "Building a Simple Linear Regression with a Gradient Descent Function and a Multiple Linear Regression Model using the Normal Equations",
+        "tags": ["Linear-Regression", "Python", "Pandas", "Data-Analysis"],
+        "source_code": "",
+        "slug": "regression-article",
+        "thumbnail":""
+    },
+    {
+        "id":2,
+        "title": "Univariate and Multivariate Linear Regression",
+        "subtitle": "Building Regression Models from Scratch in Python",
+        "date": "3/1/24",
+        "description": "Building a Simple Linear Regression with a Gradient Descent Function and a Multiple Linear Regression Model using the Normal Equations",
+        "tags": ["Linear-Regression", "Pandas", "Data-Analysis"],
+        "source_code": "",
+        "slug": "regression-article",
+        "thumbnail":""
+    }
+]

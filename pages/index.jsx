@@ -3,6 +3,7 @@ import Link from "next/link";
 const myResume = "./documents/trevor-rowland-resume.pdf";
 import Image from "next/image";
 import styles from "../styles/HomePage.module.css";
+import { useRouter } from "next/router";
 
 export default function HomePage() {
   return (
@@ -23,45 +24,69 @@ export default function HomePage() {
                 <div className={styles.content}>
                   <h4>Skill Set</h4>
                   <div className={styles.tags}>
-                    <span key="Python" className="Python">
-                      Python
-                    </span>
-                    <span key="Pandas" className="Pandas">
-                      Pandas
-                    </span>
-                    <span key="SQL" className="SQL">
-                      SQL
-                    </span>
-                    <span key="Jupyter-Notebooks" className="Jupyter-Notebooks">
-                      Jupyter-Notebooks
-                    </span>
-                    <span key="Excel" className="Excel">
-                      Excel
-                    </span>
-                    <span key="Data-Analysis" className="Data-Analysis">
-                      Data-Analysis
-                    </span>
-                    <span
-                      key="Data-Visualization"
-                      className="Data-Visualization"
-                    >
-                      Data-Visualization
-                    </span>
-                    <span key="APIs" className="APIs">
-                      APIs
-                    </span>
-                    <span key="Linear-Regression" className="Linear-Regression">
-                      Linear-Regression
-                    </span>
-                    <span key="Software-Design" className="Software-Design">
-                      Software-Design
-                    </span>
-                    <span key="CAPM" className="CAPM">
-                      CAPM
-                    </span>
-                    <span key="Fama-French" className="Fama-French">
-                      Fama-French
-                    </span>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Python")}`}>
+                      <span key="Python" className="Python" >
+                        Python
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Pandas")}`}>
+                      <span key="Pandas" className="Pandas">
+                        Pandas
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("SQL")}`}>
+                      <span key="SQL" className="SQL">
+                        SQL
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Jupyter-Notebooks")}`}>
+                      <span key="Jupyter-Notebooks" className="Jupyter-Notebooks">
+                        Jupyter-Notebooks
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Excel")}`}>
+                      <span key="Excel" className="Excel">
+                        Excel
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Data-Analysis")}`}>
+                      <span key="Data-Analysis" className="Data-Analysis">
+                        Data-Analysis
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Data-Visualization")}`}>
+                      <span
+                        key="Data-Visualization"
+                        className="Data-Visualization"
+                      >
+                        Data-Visualization
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("APIs")}`}>
+                      <span key="APIs" className="APIs">
+                        APIs
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Linear-Regression")}`}>
+                      <span key="Linear-Regression" className="Linear-Regression">
+                        Linear-Regression
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Software-Design")}`}>
+                      <span key="Software-Design" className="Software-Design">
+                        Software-Design
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("CAPM")}`}>
+                      <span key="CAPM" className="CAPM">
+                        CAPM
+                      </span>
+                    </Link>
+                    <Link href="/[tag]" as={`/${encodeURIComponent("Fama-French")}`}>
+                      <span key="Fama-French" className="Fama-French">
+                        Fama-French
+                      </span>
+                    </Link>
                   </div>
                 </div>
               </div>
