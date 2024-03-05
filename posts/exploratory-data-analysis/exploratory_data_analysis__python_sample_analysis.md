@@ -1,13 +1,3 @@
----
-title: "Time Series Modeling: Exploratory Data Analysis"
-
-subtitle: "Notebook 3: Sample Analysis in Python"
-
-description: "Evaluating the Distributions of Samples using different estimators, transformations and plots"
-
-thumbnail: ""
----
-
 # __Time Series Modeling:__ _Exploratory Data Analysis_
 
 ## ___Notebook 3:___ _Sample Analysis in Python_

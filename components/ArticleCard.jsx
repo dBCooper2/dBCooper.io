@@ -28,6 +28,16 @@ const ArticleCard = ({ article }) => {
                 </span>
               ))}
             </div>
+            {article.source_code && (
+                <a
+                  href={article.source_code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.underline}
+                >
+                  Source Code
+                </a>
+              )}
           </div>
         </div>
       </Link>

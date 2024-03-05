@@ -1,13 +1,3 @@
----
-title: "Time Series Modeling: Exploratory Data Analysis"
-
-subtitle: "Notebook 2: Histograms and the Kernel Density Estimator"
-
-description: "This notebook aims to create python exercises for plotting the Histograms and Kernel Density estimates of Price and Return Data."
-
-thumbnail: ""
----
-
 # __Time Series Modeling:__ _Exploratory Data Analysis_
 
 ## ___Notebook 2:___ _Histograms and the Kernel Density Estimator_
@@ -93,6 +83,9 @@ aph_d_df = aph_d_df.rename(columns={'Adj Close':'Adj_Close'})
 aph_d_df.head()
 ```
 
+
+
+
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -143,9 +136,12 @@ aph_d_df.head()
 </table>
 </div>
 
+
+
 ### _Define the Returns Functions_
 
 _From returns_notes.ipynb_ [ADD LINK LATER]
+
 
 ```python
 # Net Return and Log Return Functions:
@@ -165,6 +161,7 @@ def get_root_returns(df: pd.DataFrame, col_name: str, num_periods: int)->pd.Data
 
 ### _Collect Net, Log, and Root Returns for the DataFrame_ 
 
+
 ```python
 aph_df = get_net_returns(aph_d_df, 'Adj_Close', 1)
 aph_df = get_log_returns(aph_df, 'Adj_Close', 1)
@@ -172,6 +169,9 @@ aph_df = get_root_returns(aph_df, 'Adj_Close', 1)
 
 aph_df.head()
 ```
+
+
+
 
 <div>
 <style scoped>
@@ -243,6 +243,8 @@ aph_df.head()
   </tbody>
 </table>
 </div>
+
+
 
 ## Histograms
 
@@ -453,7 +455,7 @@ aph_df.head()
 
 
 
-```html
+
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -524,7 +526,7 @@ aph_df.head()
   </tbody>
 </table>
 </div>
-```
+
 
 
 ### _Plotting the Gaussian Kernel Function_

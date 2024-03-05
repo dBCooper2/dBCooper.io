@@ -31,6 +31,12 @@ const ArticlesPage = ({ articles }) => {
       </div>
       <br />
       <hr />
+      <div>
+        <h3>This Page and the Connected Articles are still a Work-in-Progress. Some of the Markdown might not render correctly, and images are not currently displaying. 
+          This will be fixed soon and all notebooks in a fully viewable form are available by clicking the "source code" link on their cards.</h3>
+      </div>
+      <br />
+      <hr />
       <div className={styles.container}>
         {filteredArticles.map((article) => (
           <ArticleCard key={article.id} article={article} />

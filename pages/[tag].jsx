@@ -23,14 +23,6 @@ const ContentPage = ({ articles, python_projects, tech_projects, selectedTag }) 
       </div>
       <hr />
       <br />
-      <h3>Articles</h3>
-      <hr />
-      <div className={styles.container}>
-        {articles.map((article) => (
-            <ArticleCard key={article.id} article={article} />
-        ))}
-      </div>
-      <br />
       <h3>Projects</h3>
       <hr />
       <div className={styles.container}>
@@ -40,6 +32,16 @@ const ContentPage = ({ articles, python_projects, tech_projects, selectedTag }) 
         {tech_projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
+      </div>
+      <div>
+      <h3>Articles</h3>
+      <hr />
+      <div className={styles.container}>
+        {articles.map((article) => (
+            <ArticleCard key={article.id} article={article} />
+        ))}
+      </div>
+      <br />
       </div>
     </div>
   );

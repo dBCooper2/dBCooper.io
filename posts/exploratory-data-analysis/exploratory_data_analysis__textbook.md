@@ -1,13 +1,3 @@
----
-title: "Time Series Modeling: Exploratory Data Analysis"
-
-subtitle: "Notebook 1: Textbook Notes"
-
-description: "Examining different techniques for analyzing distributions of samples and ways to evaluate these distributions."
-
-thumbnail: ""
----
-
 # __Time Series Modeling:__ _Exploratory Data Analysis_
 
 ## ___Notebook 1:___ _Textbook Notes_

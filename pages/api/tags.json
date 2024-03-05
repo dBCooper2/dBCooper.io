@@ -62,5 +62,9 @@
     {
         "text":"Software-Design",
         "color":"#3e559e"
+    },
+    {
+        "text":"Web-Scraping",
+        "color":"#005AFF"
     }
 ]
