@@ -2,11 +2,19 @@
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
-<img src="public/github_imgs/homepage-2-23-24.png" alt="portfolio-banner" style="width: 85%;"/>
+<img src="public/github_imgs/homepage-3-5-24.png" alt="portfolio-banner" style="width: 85%;"/>
 
 Huge shoutouts to the [original project](https://github.com/drkostas/drkostas.github.io) by [drkostas](https://github.com/drkostas)! This is an amazing portfolio project and I am very thankful for his creation of the original project.
 
 ### Changelog:
+
+#### 3/5/24
+
++ Tags on the Homepage are now clickable elements that lead to a filtered list of Projects and Articles that filter based on the tag clicked
++ Projects and Articles Pages now have a "Filter Tags" Button that lets the user filter by a specified tag, filtering by multiple tags will be added later but for now, there is a lot of redundancy in the tags
++ Articles are Converted Jupyter Notebooks, rendered with `react-markdown`, `remark-math`, `rehype-katex` and `highlight.js`. This still has some formatting issues, but for now it works well enough to deploy and start getting feedback.
++ Current To-Dos are to fix the formatting on Article Pages, and Fix the Article Cards having dynamic length, it doesn't look great.
++ Other To-Dos include more edits to the code blocks on articles and copy buttons for the code blocks, but this will likely need to be done in the summer.
 
 #### 2/23/24
 
