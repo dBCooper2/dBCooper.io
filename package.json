@@ -20,6 +20,7 @@
     "better-react-mathjax": "^2.0.3",
     "fs": "^0.0.1-security",
     "gh-pages": "^4.0.0",
+    "highlight.js": "^11.9.0",
     "katex": "^0.16.9",
     "mathjax": "^3.2.2",
     "mdx": "^0.3.1",
@@ -30,8 +31,10 @@
     "react-jupyter-notebook-viewer": "^1.1.13",
     "react-markdown": "^9.0.1",
     "react-pdf": "^5.7.2",
+    "react-syntax-highlighter": "^15.5.0",
     "rehype-katex": "^7.0.0",
     "remark-breaks": "^4.0.0",
+    "remark-code-blocks": "^2.0.1",
     "remark-gfm": "^4.0.0",
     "remark-math": "^6.0.0"
   },

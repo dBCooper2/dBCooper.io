@@ -12,7 +12,7 @@ Describing the theory of linear regression for univariate and multivariate distr
 
 Regression Analysis is a tool used in statistics and finance to see how strongly related an dependent variable and one or more independent variables are. 
 
-Regression models take a series of predictor(##X##) variables and a single response(Y) variable, and estimates a line of best fit that can be used to predict unknown response variables. This notebook will first discuss univariate(single predictor variable) regression, then expand on that to perform multivariate regression with multiple predictor variables.
+Regression models take a series of predictor($X$) variables and a single response(Y) variable, and estimates a line of best fit that can be used to predict unknown response variables. This notebook will first discuss univariate(single predictor variable) regression, then expand on that to perform multivariate regression with multiple predictor variables.
 
 This regression model can be applied to any series of predictor and response variables, however for the purpose of the [pythonic-finance project](https://github.com/dBCooper2/pythonic-finance), this model will be used in the Fama-French 3 and 5 factor analyses of portfolios. These Models will be discussed in another article, as this notebook is primarily focused on the methods used to perform regression.
 

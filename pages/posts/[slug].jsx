@@ -1,19 +1,14 @@
 import { getArticlesMetadata } from '../api/articles.js';
-import styles from "../../styles/Article.module.css"
+import styles from "../../styles/MdArticles.module.css"
 import fs from 'fs'; // Node.js File System module
 import path from 'path'; // Node.js Path module
+import CustomMarkdown from '../../components/CustomMarkdown.jsx';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import "katex/dist/katex.min.css";
 
-// pages/index.js
-import dynamic from "next/dynamic";
 
 const ArticlePage = ({ article }) => {
-
-  const Notebook = dynamic(() => import("../../components/Notebook"), {
-    ssr: false
-  });
 
   return (
     <> 
@@ -23,12 +18,13 @@ const ArticlePage = ({ article }) => {
       <hr />
       <br />
       </div>
-      <div className={styles.container}>
-        <Notebook className={styles.notebook}
-			  filePath="https://raw.githubusercontent.com/dBCooper2/pythonic-finance/main/notebooks/regression_models/multiple_linear_regression.ipynb" // Or a raw JSON notebook file location online
-			  notebookInputLanguage="python"
-			  // Rest of the properties if required.
-		    />
+      <div>
+      <CustomMarkdown
+        className={styles.body}
+        content={article.content}
+        remarkPlugins={[remarkMath]}
+        rehypePlugins={[rehypeKatex]}
+      />
       </div>
     </>
   );
