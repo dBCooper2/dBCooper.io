@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import hljs from 'highlight.js';
-import 'highlight.js/styles/github.css'; // CHANGE AFTER WRITING CUSTOM CSS
+import 'highlight.js/styles/default.css';
 
 const CustomMarkdown = ({ content, ...props }) => {
   const markdownRef = useRef();
