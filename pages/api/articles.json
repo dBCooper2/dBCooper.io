@@ -8,6 +8,7 @@
         "tags": ["Linear-Regression", "Python", "Pandas", "Data-Analysis"],
         "source_code": "",
         "slug": "regression-article",
+        "pathToFile":"/posts/regression_article.md",
         "thumbnail":""
     },
     {
@@ -19,6 +20,7 @@
         "tags": ["Linear-Regression", "Pandas", "Data-Analysis"],
         "source_code": "",
         "slug": "regression-article",
+        "pathToFile":"/posts/regression_article.md",
         "thumbnail":""
     }
 ]

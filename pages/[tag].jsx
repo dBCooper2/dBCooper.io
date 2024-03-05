@@ -3,17 +3,27 @@ import { getPythonProjects } from "./api/python-projects.js";
 import { getTechProjects } from "./api/tech-projects.js"
 import ArticleCard from "../components/ArticleCard.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
-
-
+import FilterButton from "../components/FilterButton.jsx";
 import styles from "../styles/RelevantWork.module.css"
 import path from "path";
 import fs from "fs";
+import { useState } from "react";
+import { decode } from "punycode";
 
 
-const ContentPage = ({ articles, python_projects, tech_projects }) => {
+const ContentPage = ({ articles, python_projects, tech_projects, selectedTag }) => {
+
   return (
     <div>
-      <h1>Articles</h1>
+      <div className={styles.title_container}>
+        <h1>Relevant Articles and Projects</h1>
+        <center>
+          <FilterButton destination= "tag" tag={selectedTag}/>
+        </center>
+      </div>
+      <hr />
+      <br />
+      <h3>Articles</h3>
       <hr />
       <div className={styles.container}>
         {articles.map((article) => (
@@ -21,7 +31,7 @@ const ContentPage = ({ articles, python_projects, tech_projects }) => {
         ))}
       </div>
       <br />
-      <h1>Projects</h1>
+      <h3>Projects</h3>
       <hr />
       <div className={styles.container}>
         {python_projects.map((project) => (
@@ -89,6 +99,7 @@ export const getStaticProps = async ({ params }) => {
       articles: filteredArticles,
       python_projects: filteredPythonProjects,
       tech_projects: filteredTechProjects,
+      selectedTag: decodedTag,
     },
   };
 };

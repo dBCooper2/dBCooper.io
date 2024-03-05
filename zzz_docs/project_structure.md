@@ -19,15 +19,19 @@ Filter(This can be used to add more tags or take them away)
 
 ---Projects(If Any)---
 
+```html
 <center>
 projCard1 | projCard2 | projCard3 ...
 </center>
+```
 
 ---Articles(If Any)---
 
+```html
 <center>
 articleCard1 | articleCard2 | articleCard3 ...
 </center>
+```
 
 ## TODOS
 
