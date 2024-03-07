@@ -1,7 +1,7 @@
 pre code.hljs {
   display: block;
   overflow-x: auto;
-  padding: 1em
+  padding: 5rem;
 }
 code.hljs {
   padding: 3px 5px
@@ -24,7 +24,7 @@ Typically this "required" baseline CSS is added by `makestuff.js` during build.
 pre code.hljs {
   display: block;
   overflow-x: auto;
-  padding: 1em
+  padding: 1rem
 }
 code.hljs {
   padding: 3px 5px

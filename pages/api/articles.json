@@ -1,5 +1,18 @@
 [
     {
+        "id":0,
+        "title": "Test Article",
+        "subtitle": "Used for Testing Formatting",
+        "date": "3/7/24",
+        "description": "Lorem Ipsum Dolor yada yada yada you get it",
+        "tags": ["Linear-Regression", "Python", "Pandas", "Data-Analysis", "Data-Visualization"],
+        "source_code": "N/A",
+        "slug": "test-article",
+        "pathToFile":"posts/testing/test-article.md",
+        "thumbnail":"/project_imgs/regression.jpg",
+        "addtl-files": "posts/testing/test-article-files"
+    },
+    {
         "id":1,
         "title": "Simple Linear Regression From Scratch",
         "subtitle": "Regression Model from Scratch in Python Using the Gradient Descent",
@@ -9,7 +22,8 @@
         "source_code": "https://github.com/dBCooper2/pythonic-finance/blob/main/notebooks/regression_models/simple_linear_regression.ipynb",
         "slug": "simple_linear_regression",
         "pathToFile":"posts/regression-models/simple_linear_regression.md",
-        "thumbnail":"/project_imgs/regression.jpg"
+        "thumbnail":"/project_imgs/regression.jpg",
+        "addtl-files": "posts/regression-models/simple_linear_regression_files"
     },
     {
         "id":2,
@@ -21,7 +35,8 @@
         "source_code": "https://github.com/dBCooper2/pythonic-finance/blob/main/notebooks/regression_models/multiple_linear_regression.ipynb",
         "slug": "multiple_linear_regression",
         "pathToFile":"posts/regression-models/multiple_linear_regression.md",
-        "thumbnail":"/project_imgs/regression_surface.png"
+        "thumbnail":"/project_imgs/regression_surface.png",
+        "addtl-files": "posts/regression-models/multiple_linear_regression_files"
     },
     {
         "id":3,
@@ -33,7 +48,8 @@
         "source_code": "https://github.com/dBCooper2/pythonic-finance/blob/main/notebooks/time_series/exploratory_data_analysis__textbook.ipynb",
         "slug": "exploratory_data_analysis__textbook",
         "pathToFile":"posts/exploratory-data-analysis/exploratory_data_analysis__textbook.md",
-        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/time_series_data_analysis_chapter/aph_adj_close.png?raw=true"
+        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/time_series_data_analysis_chapter/aph_adj_close.png?raw=true",
+        "addtl-files":"posts/exploratory-data-analysis/exploratory_data_analysis__textbook_files"
     },
     {
         "id":4,
@@ -45,7 +61,8 @@
         "source_code": "https://github.com/dBCooper2/pythonic-finance/blob/main/notebooks/time_series/exploratory_data_analysis__python_hists_kde.ipynb",
         "slug": "exploratory_data_analysis__python_hists_kde",
         "pathToFile":"posts/exploratory-data-analysis/exploratory_data_analysis__python_hists_kde.md",
-        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/time_series_data_analysis_chapter/hists_kde.png?raw=true"
+        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/time_series_data_analysis_chapter/hists_kde.png?raw=true",
+        "addtl-files":"posts/exploratory-data-analysis/exploratory_data_analysis__python_hists_kde_files"
     },
     {
         "id":5,
@@ -57,7 +74,8 @@
         "source_code": "https://github.com/dBCooper2/pythonic-finance/blob/main/notebooks/time_series/exploratory_data_analysis__python_sample_analysis.ipynb",
         "slug": "exploratory_data_analysis__python_sample_analysis",
         "pathToFile":"posts/exploratory-data-analysis/exploratory_data_analysis__python_sample_analysis.md",
-        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/time_series_data_analysis_chapter/normal_probability_plots.png?raw=true"
+        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/time_series_data_analysis_chapter/normal_probability_plots.png?raw=true",
+        "addtl-files":"posts/exploratory-data-analysis/exploratory_data_analysis__python_sample_analysis_files"
     },
     {
         "id":6,
@@ -69,7 +87,8 @@
         "source_code": "https://github.com/dBCooper2/pythonic-finance/blob/main/notebooks/financial_data/returns_textbook_notes.ipynb",
         "slug": "returns_textbook_notes",
         "pathToFile":"posts/returns/returns_textbook_notes.md",
-        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/returns_chapter/amd_log_returns.png?raw=true"
+        "thumbnail":"https://github.com/dBCooper2/pythonic-finance/blob/main/docs/readme_files/returns_chapter/amd_log_returns.png?raw=true",
+        "addtl-files":"posts/exploratory-data-analysis/exploratory_data_analysis__python_hists_kde_files"
     },
     {
         "id":7,
@@ -81,7 +100,8 @@
         "source_code": "https://github.com/dBCooper2/financial-modeling/blob/main/notebooks/finance/mpl_finance_visualizations.ipynb",
         "slug": "mpl_finance_visualizations",
         "pathToFile":"posts/data-viz/mpl_finance_visualizations.md",
-        "thumbnail":"/project_imgs/mplfinance.png"
+        "thumbnail":"/project_imgs/mplfinance.png",
+        "addtl-files":"posts/data-viz/mpl_finance_visualizations_files"
     },
     {
         "id":8,
@@ -93,7 +113,8 @@
         "source_code": "https://github.com/dBCooper2/financial-modeling/blob/main/notebooks/data_processing/bs4_tutorial.ipynb",
         "slug": "bs4_tutorial",
         "pathToFile":"posts/web-scraping/bs4_tutorial.md",
-        "thumbnail":"/project_imgs/scraper.jpg"
+        "thumbnail":"/project_imgs/scraper.jpg",
+        "addtl-files":""
     },
     {
         "id":9,
@@ -105,6 +126,7 @@
         "source_code": "https://github.com/dBCooper2/financial-modeling/blob/main/notebooks/finance/capm.ipynb",
         "slug": "capm",
         "pathToFile":"posts/portfolio-testing/capm.md",
-        "thumbnail":"/project_imgs/capm.jpg"
+        "thumbnail":"/project_imgs/capm.jpg",
+        "addtl-files":"posts/portfolio-testing/capm_files"
     }
 ]

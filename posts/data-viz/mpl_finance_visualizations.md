@@ -39,9 +39,6 @@ s = yf.Ticker(stock)
 s_candles = yf.download(tickers=stock, start=start_dt, end=end_dt, interval='1d')
 ```
 
-    [*********************100%%**********************]  1 of 1 completed
-
-
 ## Graphing the Data
 
 ### 30-Day OHLC Graph
@@ -53,7 +50,7 @@ mpf.plot(s_candles, style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_8_0.png)
+![png](/posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_8_0.png)
     
 
 
@@ -66,7 +63,7 @@ mpf.plot(s_candles, type='candle', style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_10_0.png)
+![png](/posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_10_0.png)
     
 
 
@@ -79,7 +76,7 @@ mpf.plot(s_candles, type='line', style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_12_0.png)
+![png](posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_12_0.png)
     
 
 
@@ -109,7 +106,7 @@ mpf.plot(s_candles, type='candle', mav=(2,4,6,8,10,12,14), style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_14_1.png)
+![png](/posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_14_1.png)
     
 
 
@@ -118,7 +115,7 @@ mpf.plot(s_candles, type='candle', mav=(2,4,6,8,10,12,14), style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_14_3.png)
+![png](/posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_14_3.png)
     
 
 
@@ -127,7 +124,7 @@ mpf.plot(s_candles, type='candle', mav=(2,4,6,8,10,12,14), style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_14_5.png)
+![png](/posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_14_5.png)
     
 
 
@@ -136,7 +133,7 @@ mpf.plot(s_candles, type='candle', mav=(2,4,6,8,10,12,14), style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_14_7.png)
+![png](/posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_14_7.png)
     
 
 
@@ -149,7 +146,7 @@ mpf.plot(s_candles, type='candle', mav=(2,3,4,5),volume=True, style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_16_0.png)
+![png](/posts/data-viz/mpl_finance_visualizations_files/mpl_finance_visualizations_16_0.png)
     
 
 
@@ -180,6 +177,6 @@ mpf.plot(candles, type='candle', mav=(30,60), volume=True, style=mpf_s)
 
 
     
-![png](mpl_finance_visualizations_files/mpl_finance_visualizations_18_3.png)
+![png](/mpl_finance_visualizations_files/mpl_finance_visualizations_18_3.png)
     
 

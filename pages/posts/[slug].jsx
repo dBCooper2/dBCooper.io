@@ -4,8 +4,10 @@ import fs from 'fs'; // Node.js File System module
 import path from 'path'; // Node.js Path module
 import CustomMarkdown from '../../components/CustomMarkdown.jsx';
 import remarkMath from 'remark-math';
+import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import "katex/dist/katex.min.css";
+import rehypeRaw from 'rehype-raw';
 
 
 const ArticlePage = ({ article }) => {
@@ -22,8 +24,8 @@ const ArticlePage = ({ article }) => {
       <CustomMarkdown
         className={styles.body}
         content={article.content}
-        remarkPlugins={[remarkMath]}
-        rehypePlugins={[rehypeKatex]}
+        remarkPlugins={[remarkGfm, remarkMath]}
+        rehypePlugins={[rehypeRaw, rehypeKatex]}
       />
       </div>
     </>
