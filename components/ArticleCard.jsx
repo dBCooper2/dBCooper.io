@@ -8,7 +8,7 @@ const ArticleCard = ({ article }) => {
       <Link href={`posts/${article.slug}`}>
         <div className={styles.card}>
           <Image
-            src={article.image}
+            src={article.thumbnail}
             height={300}
             width={600}
             alt={article.title}

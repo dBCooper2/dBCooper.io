@@ -102,6 +102,7 @@ export const getStaticProps = async ({ params }) => {
       python_projects: filteredPythonProjects,
       tech_projects: filteredTechProjects,
       selectedTag: decodedTag,
+      title: decodedTag,
     },
   };
 };

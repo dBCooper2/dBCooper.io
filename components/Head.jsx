@@ -4,10 +4,10 @@ const CustomHead = ({ title }) => {
   return (
     <Head>
       <title>{title}</title>
-      <meta name="description" content="Trevor Rowland's Profolio." />
+      <meta name="description" content="Trevor Rowland's Portfolio." />
       <meta
         name="keywords"
-        content="trevor rowland, trevor, rowland, data analyst portfolio, business analytics, business IT, data analytics, trevor rowland portfolio, vscode-portfolio"
+        content="trevor rowland, trevor, rowland, data analyst portfolio, business analytics, business IT, business intelligence, data analytics, trevor rowland portfolio, vscode-portfolio"
       />
       <meta property="og:title" content="Trevor Rowland's Portfolio" />
       <meta property="og:description" content="Trevor Rowland's Portfolio." />

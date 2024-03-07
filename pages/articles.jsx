@@ -52,6 +52,7 @@ export const getStaticProps = async () => {
 
   return {
     props: {
+      title: "Articles",
       articles,
     },
   };
