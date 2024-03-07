@@ -4,6 +4,8 @@
     flex-direction: column;
     border-radius: 20px;
     cursor: pointer;
+    min-height: 600px; 
+    max-height: 600px;
   }
 
 .card:hover {
